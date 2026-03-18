@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  background: teal;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.project {
+  background: #eee;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
